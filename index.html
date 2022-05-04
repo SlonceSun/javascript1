@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript1</title>
 </head>
 <body>
     
+
+
+    <script>
+
+        var valorElegido;
+        var valorMaquina = "papel"
+        
+        var valorElegido = prompt('indique piedra, papel, tijera');
+
+
+        if (valorElegido == valorMaquina) {
+            document.write ("empate")
+        }
+        else if (valorElegido == "tijera"){
+            document.write ("ganaste")
+        }
+        else if (valorElegido == "piedra"){
+            document.write ("perdiste")
+        }
+
+    </script>
 </body>
 </html>

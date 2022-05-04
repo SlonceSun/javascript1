@@ -22,10 +22,13 @@
             document.write ("empate")
         }
         else if (valorElegido == "tijera"){
-            document.write ("ganaste")
+            document.write ("tengo papel, ganaste")
         }
         else if (valorElegido == "piedra"){
-            document.write ("perdiste")
+            document.write ("tengo papel, perdiste")
+        }
+        else if (valorElegido != ("piedra" || "tijera" || "papel")) {
+            document.write ("<h1 style='color: red'>TEXTO ERRONEO</h1>")
         }
 
     </script>
